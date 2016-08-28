@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".tree-view > li.directory": [
+      {
+        "label": "Find Elements in Directory",
+        "command": "element-finder:begin"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Element Finder",
+          "submenu": [
+            {
+              "label": "Find Elements in Directory",
+              "command": "element-finder:begin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

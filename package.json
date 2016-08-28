@@ -1,0 +1,15 @@
+{
+  "name": "element-finder",
+  "main": "./lib/element-finder",
+  "version": "0.0.0",
+  "description": "Find in HTML files with CSS selectors",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "element-finder:begin"
+  },
+  "repository": "https://github.com/keeganstreet/atom-element-finder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

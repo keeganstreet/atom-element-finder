@@ -1,0 +1,6 @@
+{
+  ".element-finder atom-text-editor[mini]": {
+    "enter": "element-finder:confirm",
+    "escape": "element-finder:cancel"
+  }
+}
