@@ -11,5 +11,22 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "elfinder": "^0.5.0",
+    "minimatch": "^3.0.3"
+  },
+  "configSchema": {
+    "excludeVcsIgnoredFiles": {
+      "type": "boolean",
+      "default": true,
+      "title": "Exclude VCS Ignored Files",
+      "description": "Don't search through files and directories ignored by the current project's VCS system. For example, projects using Git have these paths defined in their `.gitignore` file."
+    },
+    "excludeIgnoredNames": {
+      "type": "boolean",
+      "default": true,
+      "description": "Don't search through items matched by the `Ignored Names` core config setting."
+    }
   }
 }
