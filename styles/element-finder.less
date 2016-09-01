@@ -1,0 +1,50 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.element-finder-results {
+  display: flex;
+  flex-direction: column;
+
+  .hidden {
+    display: none;
+  }
+}
+
+.results-view {
+  overflow: auto;
+  position: relative;
+  padding: 0 @component-padding;
+  flex: 1;
+
+  .search-result {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .line-number {
+    margin-right: 1ex;
+    text-align: right;
+    display: inline-block;
+  }
+
+  .path-match-number {
+    padding-left: @component-padding;
+    color: @text-color-subtle;
+  }
+
+  .preview {
+    word-break: break-all;
+    font-family: monospace;
+  }
+}
+
+.no-results-overlay {
+  visibility: hidden;
+}
+
+.no-results .no-results-overlay {
+  visibility: visible;
+}

@@ -13,15 +13,16 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "elfinder": "^0.5.0",
-    "minimatch": "^3.0.3"
+    "elfinder": "^0.5.1",
+    "minimatch": "^3.0.3",
+    "mustache": "^2.2.1"
   },
   "configSchema": {
     "excludeVcsIgnoredFiles": {
       "type": "boolean",
       "default": true,
       "title": "Exclude VCS Ignored Files",
-      "description": "Don't search through files and directories ignored by the current project's VCS system. For example, projects using Git have these paths defined in their `.gitignore` file."
+      "description": "Don't search through files and directories ignored by the current project's VCS (version control system). For example, projects using Git have these paths defined in their `.gitignore` file."
     },
     "excludeIgnoredNames": {
       "type": "boolean",
@@ -30,7 +31,12 @@
     },
     "filePatterns": {
       "type": "array",
-      "default": ["*.html", "*.htm", "*.shtml", "*.erb"],
+      "default": [
+        "*.html",
+        "*.htm",
+        "*.shtml",
+        "*.erb"
+      ],
       "title": "File Patterns",
       "description": "List of string glob patterns for files to search in."
     }
