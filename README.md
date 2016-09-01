@@ -6,7 +6,7 @@ Element Finder searches through the HTML files in your project for any given CSS
 
 To start, right-click on a folder in Tree View, and select "Find Elements in Directory".
 
-![Element Finder in action](/styles/screenshot.gif?raw=true)
+![Element Finder in action](https://raw.githubusercontent.com/keeganstreet/atom-element-finder/master/styles/screenshot.gif)
 
 ## Settings
 
