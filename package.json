@@ -2,7 +2,7 @@
   "name": "element-finder",
   "author": "Keegan Street",
   "main": "./lib/element-finder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Find in HTML files with CSS selectors",
   "keywords": [],
   "activationCommands": {
