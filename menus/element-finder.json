@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    ".tree-view > li.directory": [
+    ".tree-view li.directory": [
       {
         "label": "Find Elements in Directory",
         "command": "element-finder:begin"
