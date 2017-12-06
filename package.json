@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "element-finder:begin"
   },
-  "repository": "https://github.com/keeganstreet/atom-element-finder",
+  "repository": "git@github.com:keeganstreet/atom-element-finder.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
